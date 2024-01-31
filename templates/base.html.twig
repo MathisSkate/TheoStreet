@@ -24,7 +24,16 @@
                     </figure>
                 </a>
             </li>
-
+            <li>
+                <a href="{{ path('app_goodies_index') }}">
+                    <figure>
+                        <i class="fa-solid fa-shirt fa-2xl"></i>
+                        <figcaption>
+                            Goodies
+                        </figcaption>
+                    </figure>
+                </a>
+            </li>
             {% if is_granted('ROLE_ADMIN') %}
                 <li>
                     <a href="{{ path('app_index') }}">
