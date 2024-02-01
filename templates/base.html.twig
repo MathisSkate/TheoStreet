@@ -48,7 +48,7 @@
             {% endif %}
             {% if app.user %}
                 <li>
-                    <a href="{{ path('app_index') }}">
+                    <a href="{{ path('app_logout') }}">
                         <figure>
                             <i class="fa-solid fa-power-off fa-2xl"></i>
                             <figcaption>
@@ -59,7 +59,7 @@
                 </li>
             {% else %}
                 <li>
-                    <a href="{{ path('app_index') }}">
+                    <a href="{{ path('app_login') }}">
                         <figure>
                             <i class="fa-solid fa-right-to-bracket fa-2xl"></i>
                             <figcaption>
